@@ -1,0 +1,19 @@
+
+.alert-text{
+    color:brown;
+}
+#title{
+    background-color:violet;
+    font-family: "DejaVu Sans", sans-serif;
+    font-size: 22px;
+}
+#header{
+    background-color: transparent;
+    font-family: "Dejavu Sans", sans-serif;
+    font-size: bold;
+    text-align: center;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
