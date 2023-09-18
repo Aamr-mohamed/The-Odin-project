@@ -1,0 +1,104 @@
+/* Reset default margin and padding for the entire page */
+body,
+h1,
+h3,
+p,
+input,
+label,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a background color and font for the entire page */
+body {
+  font-family: Arial, Helvetica, sans-serif; /* Choose a professional font */
+  background-color: #f0f0f0; /* Light gray background */
+  color: #333; /* Dark text color */
+}
+
+/* Style the main container */
+.main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #fff; /* White background for the main container */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for the main container */
+  border-radius: 8px; /* Slight rounded corners for the main container */
+}
+
+/* Style the title */
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.title h3 {
+  font-size: 32px;
+  color: #333; /* Dark text color for the title */
+}
+
+/* Style form elements */
+.inputs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.inputs label {
+  font-size: 16px;
+  color: #555; /* Slightly darker text color for labels */
+  flex-basis: 20%; /* Adjust label width as needed */
+}
+
+.inputs input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc; /* Light border for input fields */
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Style the submit button */
+button[type="button"] {
+  background-color: #007bff; /* Professional blue color for the button */
+  color: #fff; /* White text color for the button */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[type="button"]:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Style the book cards container */
+#booksContainer {
+  margin-top: 20px;
+}
+
+/* Style the book cards */
+.book-card {
+  padding: 10px;
+  background-color: #fff; /* White background for book cards */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for book cards */
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Style the remove button */
+.button {
+  background-color: #dc3545; /* Professional red color for the remove button */
+  color: #fff; /* White text color for the button */
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #c82333; /* Darker red on hover */
+}

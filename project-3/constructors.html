@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="constructors.css" />
+    <title>Book Library</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="title">
+        <h3>Book library</h3>
+      </div>
+      <div class="inputs">
+        <input type="text" class="bookTitle" id="Title" />
+        <label for="bookTitle">Book Title</label>
+        <input type="text" class="bookName" id="Name" />
+        <label for="bookName">Book Name</label>
+        <input type="text" class="bookAuthor" id="Author" />
+        <label for="bookAuthor">Book Author</label>
+        <input type="text" class="bookPages" id="Pages" />
+        <label for="bookPages">Book Pages</label>
+        <input type="text" class="bookIsRead" id="Read" />
+        <label for="bookIsRead">Book Read</label>
+        <button onclick="addBookToLibrary()" type="button">submit</button>
+      </div>
+      <div id="booksContainer"></div>
+    </div>
+
+    <script src="constructors.js"></script>
+  </body>
+</html>
